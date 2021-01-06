@@ -1,6 +1,6 @@
 import React, { Fragment, useReducer } from 'react';
 
-import { PlayingCard } from './PlayingCard';
+import { PlayingCard } from '../PlayingCard/PlayingCard';
 import { Alert } from '../shared/Alert';
 
 import { Deck, PlayerHand } from '../../game/game';
